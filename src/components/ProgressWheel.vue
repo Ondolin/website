@@ -8,7 +8,7 @@
     <div ref="wheel" class="fixed -bottom-36 -right-36">
       <div class="relative w-64 h-64">
         <div class="absolute top-28 -left-16 w-80 h-8">{{currentChapter ? currentChapter.title : ''}}</div>
-        <img class="rounded-full w-full h-full" src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg">
+        <img class="rounded-full w-full h-full" src="https://image.spreadshirtmedia.net/image-server/v1/mp/compositions/T127A1MPA215PT21X6Y6D120542679FS2049Cx000000/views/1,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true/steuerrad-buttons-klein.jpg">
       </div>
     </div>
   </div>
