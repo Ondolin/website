@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <Layout>
     <div class="h-screen"></div>
 
     <ProgressWheel>
@@ -8,7 +8,7 @@
         <div class="h-48">Test</div>
       </div>
     </ProgressWheel>
-  </div>
+  </Layout>
 </template>
 
 <script>
