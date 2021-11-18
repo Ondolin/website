@@ -2,8 +2,8 @@
   <div class="container mx-auto">
     <header class="w-full flex justify-end my-10 mr-4">
       <nav class="flex justify-between item-center">
-        <g-link class="ml-4 mt-1 hover:underline" to="/">Home</g-link>
-        <g-link class="ml-4 mt-1 hover:underline" to="/about/">About</g-link>
+        <g-link class="ml-4 mt-1 hover:underline" to="/">{{ $t("nav.home") }}</g-link>
+        <g-link class="ml-4 mt-1 hover:underline" to="/about/">{{ $t("nav.impressum") }}</g-link>
         <LocaleSwitcher class="ml-4" />
       </nav>
     </header>

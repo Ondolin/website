@@ -19,6 +19,6 @@ export default function (Vue, { router, head, isClient, appOptions }) {
 
   Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-  appOptions.i18n.setLocaleMessage('de-de', require('~/locales/de-de.json'));
-  appOptions.i18n.setLocaleMessage('en-gb', require('~/locales/en-gb.json'));
+  appOptions.i18n.setLocaleMessage('de-de', require('~/locales/de-de.js'));
+  appOptions.i18n.setLocaleMessage('en-gb', require('~/locales/en-gb.js'));
 }
