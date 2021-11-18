@@ -1,12 +1,9 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
+  <div class="container mx-auto">
+    <header class="w-full flex justify-end my-10 mr-4">
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
+        <g-link class="ml-4" to="/">Home</g-link>
+        <g-link class="ml-4" to="/about/">About</g-link>
       </nav>
     </header>
     <slot/>
@@ -24,10 +21,7 @@ query {
 <style lang="scss">
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-  @apply bg-primary;
+  @apply bg-primary text-white;
 }
 
 .layout {
@@ -37,15 +31,4 @@ body {
   padding-right: 20px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
 </style>

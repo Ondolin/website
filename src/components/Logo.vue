@@ -1,3 +1,3 @@
 <template>
-    <img :src="'Logo.svg'">
+    <g-image :src="'Logo.svg'" />
 </template>
