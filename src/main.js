@@ -4,10 +4,20 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import LogoComponent from '~/components/Logo.vue'
 
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { config, library } from '@fortawesome/fontawesome-svg-core'
+import { faLanguage } from '@fortawesome/free-solid-svg-icons'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+
+config.autoAddCss = false;
+library.add(faLanguage)
+
 export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
   Vue.component('Logo', LogoComponent);
+
+  Vue.component('font-awesome-icon', FontAwesomeIcon)
 
   appOptions.i18n.setLocaleMessage('de-de', require('~/locales/de-de.json'));
   appOptions.i18n.setLocaleMessage('en-gb', require('~/locales/en-gb.json'));
