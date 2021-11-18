@@ -4,8 +4,11 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import LogoComponent from '~/components/Logo.vue'
 
-export default function (Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
   Vue.component('Logo', LogoComponent);
+
+  appOptions.i18n.setLocaleMessage('de-de', require('~/locales/de-de.json'));
+  appOptions.i18n.setLocaleMessage('en-gb', require('~/locales/en-gb.json'));
 }
