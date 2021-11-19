@@ -9,6 +9,8 @@
       <span class="p-2 border-accent border-b">{{ $t("projects.title") }}</span>
     </div>
 
+    <gotify-matrix-bot class="mt-6" />
+
     <!--Footer /--->
   </Layout>
 </template>
@@ -17,8 +19,9 @@
 import Footer from "../components/Footer.vue";
 import WhoAmI from "../components/paragraphs/WhoAmI.vue";
 import WhatDoIDo from "../components/paragraphs/WhatDoIDo.vue";
+import GotifyMatrixBot from "../components/paragraphs/projects/GotifyMatrixBot.vue";
 
 export default {
-  components: { Footer, WhoAmI, WhatDoIDo },
+  components: { Footer, WhoAmI, WhatDoIDo, GotifyMatrixBot },
 };
 </script>

@@ -21,16 +21,15 @@ module.exports = {
     },
     projects: {
         title: "Meine Projekte",
-        project: {
-            gotifyMatrixBot: {
-                title: "Gotify Matrix Bot",
-                description: [
-                    "Dies ist ein tool, das dazu gedacht ist zwei sehr tolle programme miteinander reden zu lassen.",
-                    "Gotify ist ein Nodification agent, mit welchem es sehr einfach ist nachrichten zu senden und zu emfangen. Da jedoch möglochkeiten sehr eingeschränkt sind diese Nachrichten mobil zu erhalten, musste ich eine Alternative finden.",
-                    "Und die Alternative ist dieser Bot. Er nimmt Nachrichten von Gotify, und sendet diese in einen Matrix Chat. Für Matrix gibt es eine große außwahl an Clients für alle Mobielen Endgeräte."
-                ]
-            },
-        }
+        gotifyMatrixBot: {
+            test: "Test",
+            title: "Gotify Matrix Bot",
+            description: [
+                "Dies ist ein tool, das dazu gedacht ist zwei sehr tolle programme miteinander reden zu lassen.",
+                "Gotify ist ein Nodification agent, mit welchem es sehr einfach ist nachrichten zu senden und zu emfangen. Da jedoch möglochkeiten sehr eingeschränkt sind diese Nachrichten mobil zu erhalten, musste ich eine Alternative finden.",
+                "Und die Alternative ist dieser Bot. Er nimmt Nachrichten von Gotify, und sendet diese in einen Matrix Chat. Für Matrix gibt es eine große außwahl an Clients für alle Mobielen Endgeräte."
+            ]
+        },
 
     }
 };
