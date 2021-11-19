@@ -5,7 +5,7 @@
         </div>
 
         <div class="mt-4 text-center">
-            <div v-for="(line, i) in $t('projects.gotifyMatrixBot.description')" :key="i">
+            <div v-for="(line, i) in $t('projects.gotifyMatrixBot.description')" :key="i" class="mb-4">
                     {{ line }}
             </div>
         </div>
