@@ -19,5 +19,19 @@ module.exports = {
             "Most things I do are made for educating myself. Others derive from everyday problems, which I needed to fix.",
             "Besides programming I am working on scientific papers within my studies"
         ]
+    },
+    projects: {
+        title: "My Projects",
+        project: {
+            gotifyMatrixBot: {
+                title: "Gotify Matrix Bot",
+                description: [
+                    "This tool was created to combine two grate programs and make them together even better.",
+                    "Gitify is a nodification agent, that makes it realy simple to send and reseve messages. The only prblem of Gotify is that there is a very limited amount of mobile apps to read these nodifications. I needed an alternative.",
+                    "And this bot is my implementation of this alternative. It takes messages from gotify and sends them to a Matrix chat. Matrix is widely spred and there are tons of apps to reseve your nodifications on your mobile deive."
+                ]
+            },
+        }
+
     }
 }
