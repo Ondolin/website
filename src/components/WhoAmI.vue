@@ -1,9 +1,32 @@
 <template>
-    <div>
-        <span class="block text-5xl">Who am I?</span>
+    <div class="grid grid-cols-1 lg:grid-cols-1-3 ml-2 gap-2">
 
-        <hr class="w-32 border-accent my-2">
+        <div class="flex items-center">
 
-        {{ $t("whoAmI") }}
+            <div>
+
+                <span class="block text-5xl mt-2">Who am I?</span>
+
+                <hr class="w-32 border-accent my-2">
+
+            </div>
+        </div>
+
+        <div class="mr-32">
+
+            <div v-for="(line, i) in $t('whoAmI')" :key="i">
+
+                {{ line }}
+
+            </div>
+
+        </div>
     </div>
 </template>
+<style scoped lang="scss">
+@responsive {
+    .grid-cols-1-3 {
+        grid-template-columns: 33% 1fr;
+    }
+}
+</style>
