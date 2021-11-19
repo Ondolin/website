@@ -6,12 +6,12 @@
         <g-link class="ml-4 mt-1 border-accent border-0 hover:border-b-2" :to="$tp('/about/')">{{ $t("nav.about") }}</g-link>
         <LocaleSwitcher class="ml-8" />
       </nav>
-      <div class="lg:hidden flex flex-col justify-end ml-4 w-full top-32 relative">
+      <div class="lg:hidden flex flex-col justify-end ml-4 w-full relative">
         <div @click="toggleMenu" class="flex justify-end">
           <font-awesome-icon size="2x" :icon="['fas', 'bars']" class="mr-2"/>
         </div>
 
-        <div class="bg-primary-light p-4 pl-8 w-full mt-3 rounded-lg absolute" v-if="menuOpen">
+        <div class="bg-primary-light bg-opacity-90 p-4 pl-8 w-full mt-3 rounded-lg top-10 absolute" v-if="menuOpen">
           <g-link class="block" :to="$tp('/')">{{ $t("nav.home") }}</g-link>
           <g-link class="block mt-3" :to="$tp('/about/')">{{ $t("nav.about") }}</g-link>
           <LocaleSwitcher class="w-28 mt-3" />
