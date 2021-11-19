@@ -29,7 +29,7 @@ export default {
 <style lang="scss">
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  @apply bg-primary text-white;
+  @apply bg-primary text-white leading-relaxed;
 }
 
 </style>

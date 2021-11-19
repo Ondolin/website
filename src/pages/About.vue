@@ -5,7 +5,7 @@
       <what-do-i-do class="mt-16 lg:mt-32" />
     </div>
 
-    <div class="text-5xl mt-10 flex justify-center">
+    <div class="text-5xl mt-16 flex justify-center">
       <span class="p-2 border-accent border-b">{{ $t("projects.title") }}</span>
     </div>
 
