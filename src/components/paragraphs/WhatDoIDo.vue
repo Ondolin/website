@@ -12,7 +12,7 @@
         </div>
 
 
-        <div class="flex items-center order-first lg:order-none lg:ml-auto lg:mr-24">
+        <div class="flex items-center order-first lg:order-none lg:ml-auto whitespace-nowrap mr-8 xl:mr-24">
 
             <div>
 

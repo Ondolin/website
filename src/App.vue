@@ -16,9 +16,11 @@ export default {
                 lang.startsWith(fetchedLocale)
             ) || this.$i18n.availableLocales[0];
 
-            this.$router.push({
-                path: this.$tp(this.$route.path, newLocale, true),
-            });
+            if (newLocale !== this.$i18n.locale) {
+                this.$router.push({
+                    path: this.$tp(this.$route.path, newLocale, true),
+                });
+            }
         },
     },
 };

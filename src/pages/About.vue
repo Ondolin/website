@@ -1,7 +1,7 @@
 <template>
   <Layout>
 
-    <div class="mx-auto w-5/6">
+    <div class="mx-auto xl:w-5/6">
       <who-am-i class="mt-16 lg:mt-32"/>
       <what-do-i-do class="mt-16 lg:mt-32"/>
     </div>
