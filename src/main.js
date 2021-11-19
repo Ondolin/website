@@ -6,13 +6,13 @@ import LogoComponent from '~/components/Logo.vue'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faLanguage } from '@fortawesome/free-solid-svg-icons'
+import { faLanguage, faBars } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 require('typeface-dancing-script')
 
 config.autoAddCss = false;
-library.add(faLanguage)
+library.add(faLanguage, faBars);
 
 export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component

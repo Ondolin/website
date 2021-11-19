@@ -22,7 +22,6 @@ module.exports = {
     projects: {
         title: "Meine Projekte",
         gotifyMatrixBot: {
-            test: "Test",
             title: "Gotify Matrix Bot",
             description: [
                 "Dies ist ein tool, das dazu gedacht ist zwei sehr tolle programme miteinander reden zu lassen.",
@@ -30,6 +29,5 @@ module.exports = {
                 "Und die Alternative ist dieser Bot. Er nimmt Nachrichten von Gotify, und sendet diese in einen Matrix Chat. Für Matrix gibt es eine große außwahl an Clients für alle Mobielen Endgeräte."
             ]
         },
-
     }
 };
