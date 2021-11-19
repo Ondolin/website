@@ -1,9 +1,8 @@
 <template>
     <div class="grid grid-cols-1 lg:grid-cols-1-3 ml-4 gap-2 w-100">
 
-        <div class="lg:ml-auto mr-4 lg:mr-32 lg:w-2/3 text-left lg:text-center">
-
-            <div v-for="(line, i) in $t('whatDoIDo.text')" :key="i">
+        <div class="lg:ml-auto mr-4 lg:mr-32 lg:w-2/3 text-right">
+            <div v-for="(line, i) in $t('whatDoIDo.text')" :key="i" class="mb-4">
 
                 {{ line }}
 

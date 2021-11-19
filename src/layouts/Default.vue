@@ -6,12 +6,12 @@
         <g-link class="ml-4 mt-1 border-accent border-0 hover:border-b-2" :to="$tp('/about/')">{{ $t("nav.about") }}</g-link>
         <LocaleSwitcher class="ml-8" />
       </nav>
-      <div class="lg:hidden flex flex-col justify-end ml-4 w-full">
+      <div class="lg:hidden flex flex-col justify-end ml-4 w-full top-32 relative">
         <div @click="toggleMenu" class="flex justify-end">
           <font-awesome-icon size="2x" :icon="['fas', 'bars']" class="mr-2"/>
         </div>
 
-        <div class="bg-primary-light p-4 pl-8 w-full mt-3 rounded-lg" v-if="menuOpen">
+        <div class="bg-primary-light p-4 pl-8 w-full mt-3 rounded-lg absolute" v-if="menuOpen">
           <g-link class="block" :to="$tp('/')">{{ $t("nav.home") }}</g-link>
           <g-link class="block mt-3" :to="$tp('/about/')">{{ $t("nav.about") }}</g-link>
           <LocaleSwitcher class="w-28 mt-3" />
@@ -52,7 +52,9 @@ export default {
 <style lang="scss">
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  @apply bg-primary text-white leading-relaxed;
+  @apply text-white leading-relaxed;
+  //background-image: linear-gradient(to right bottom, #473e75, #4a407a, #4d437f, #504584, #534889, #564b8e, #5a4d92, #5d5097, #61549c, #6558a2, #6a5da7, #6e61ad);
+  background-image: linear-gradient(to right bottom, #574b90, #5d4d98, #634fa0, #6951a8, #7053b0);
 }
 
 </style>

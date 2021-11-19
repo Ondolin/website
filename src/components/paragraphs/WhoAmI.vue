@@ -12,9 +12,9 @@
             </div>
         </div>
 
-        <div class="mr-4 lg:mr-32 lg:w-2/3 text-left lg:text-center">
+        <div class="mr-4 lg:mr-32 lg:w-2/3 text-left">
 
-            <div v-for="(line, i) in $t('whoAmI.text')" :key="i">
+            <div v-for="(line, i) in $t('whoAmI.text')" :key="i" class="mb-4">
 
                 {{ line }}
 
