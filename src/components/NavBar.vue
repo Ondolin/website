@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import LocaleSwitcher from '../components/LocaleSwitcher.vue';
+import LocaleSwitcher from './LocaleSwitcher.vue';
 export default {
   components: {LocaleSwitcher},
   data() {
