@@ -19,7 +19,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      borderWidth: ['group-hover']
+      borderWidth: ['hover', 'group-hover']
     },
   },
   plugins: [],
