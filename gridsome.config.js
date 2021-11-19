@@ -16,12 +16,12 @@ module.exports = {
       use: "gridsome-plugin-i18n",
       options: {
         locales: [ // locales list
-          'de-de',
-          'en-gb'
+          'en-gb',
+          'de-de'
         ],
         pathAliases: { // path segment alias for each locales
-          'de-de': 'de',
-          'en-gb': 'en'
+          'en-gb': 'en',
+          'de-de': 'de'
         },
         fallbackLocale: 'en-gb', // fallback language
         defaultLocale: 'en-gb', // default language
