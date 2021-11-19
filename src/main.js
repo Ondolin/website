@@ -9,6 +9,8 @@ import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faLanguage } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
+require('typeface-dancing-script')
+
 config.autoAddCss = false;
 library.add(faLanguage)
 

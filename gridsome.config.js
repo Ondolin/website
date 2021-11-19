@@ -20,7 +20,7 @@ module.exports = {
           'de-de'
         ],
         pathAliases: { // path segment alias for each locales
-          'en-gb': 'en',
+          'en-gb': '',
           'de-de': 'de'
         },
         fallbackLocale: 'en-gb', // fallback language

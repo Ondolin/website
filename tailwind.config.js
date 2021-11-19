@@ -14,6 +14,9 @@ module.exports = {
           DEFAULT: '#feacc6',
           light: '#ffdee9'
         }
+      },
+      fontFamily: {
+        logo: ['Dancing Script', 'cursive'],
       }
     },
   },
