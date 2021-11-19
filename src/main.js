@@ -11,6 +11,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 
 require('typeface-dancing-script')
 
+import 'animate.css'
+
 config.autoAddCss = false;
 library.add(faLanguage, faBars);
 
