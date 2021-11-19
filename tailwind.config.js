@@ -17,6 +17,9 @@ module.exports = {
       },
       fontFamily: {
         logo: ['Dancing Script', 'cursive'],
+      },
+      spacing: {
+        'px': '1px'
       }
     },
   },
