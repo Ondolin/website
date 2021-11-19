@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 lg:grid-cols-1-3 ml-4 gap-2">
+    <div class="grid grid-cols-1 lg:grid-cols-1-3 ml-4 gap-2 leading-relaxed">
 
         <div class="flex items-center">
 
@@ -12,7 +12,7 @@
             </div>
         </div>
 
-        <div class="mr-32">
+        <div class="mr-4 lg:mr-32 lg:w-2/3">
 
             <div v-for="(line, i) in $t('whoAmI.text')" :key="i">
 

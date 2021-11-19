@@ -1,7 +1,10 @@
 <template>
   <Layout>
 
-    <who-am-i class="mt-32"/>
+    <div class="mx-auto w-5/6">
+      <who-am-i class="mt-16 lg:mt-32"/>
+      <what-do-i-do class="mt-16 lg:mt-32"/>
+    </div>
 
     <!--Footer /--->
 
@@ -11,9 +14,10 @@
 <script>
 
 import Footer from '../components/Footer.vue'
-import WhoAmI from '../components/WhoAmI.vue'
+import WhoAmI from '../components/paragraphs/WhoAmI.vue'
+import WhatDoIDo from '../components/paragraphs/WhatDoIDo.vue'
 
 export default {
-  components: { Footer, WhoAmI },
+  components: { Footer, WhoAmI, WhatDoIDo},
 }
 </script>
