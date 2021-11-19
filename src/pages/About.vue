@@ -1,14 +1,19 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+
+    <who-am-i class="mt-32"/>
+
+    <!--Footer /--->
+
   </Layout>
 </template>
 
 <script>
+
+import Footer from '../components/Footer.vue'
+import WhoAmI from '../components/WhoAmI.vue'
+
 export default {
-  metaInfo: {
-    title: 'About us'
-  }
+  components: { Footer, WhoAmI },
 }
 </script>

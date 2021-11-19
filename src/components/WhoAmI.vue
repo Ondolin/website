@@ -5,7 +5,7 @@
 
             <div>
 
-                <span class="block text-5xl mt-2">Who am I?</span>
+                <span class="block text-5xl mt-2">{{ $t('whoAmI.title') }}</span>
 
                 <hr class="w-32 border-accent my-2">
 
@@ -14,7 +14,7 @@
 
         <div class="mr-32">
 
-            <div v-for="(line, i) in $t('whoAmI')" :key="i">
+            <div v-for="(line, i) in $t('whoAmI.text')" :key="i">
 
                 {{ line }}
 

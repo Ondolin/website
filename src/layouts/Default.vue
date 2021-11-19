@@ -3,7 +3,7 @@
     <header class="w-full flex justify-end my-10 pr-4">
       <nav class="flex justify-between item-center">
         <g-link class="ml-4 mt-1 border-accent border-0 hover:border-b-2" :to="$tp('/')">{{ $t("nav.home") }}</g-link>
-        <g-link class="ml-4 mt-1 border-accent border-0 hover:border-b-2" :to="$tp('/about/')">{{ $t("nav.impressum") }}</g-link>
+        <g-link class="ml-4 mt-1 border-accent border-0 hover:border-b-2" :to="$tp('/about/')">{{ $t("nav.about") }}</g-link>
         <LocaleSwitcher class="ml-8" />
       </nav>
     </header>
