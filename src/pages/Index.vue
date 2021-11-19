@@ -6,12 +6,19 @@
       <div class="text-center text-7xl md:text-8xl lg: xl: 2xl:text-9xl -mt-16 lg:mt-12 mb-8">ONDOLIN</div>
     </div>
 
+    <who-am-i class="mt-32"/>
+
+    <Footer />
+
   </Layout>
 </template>
 
 <script>
 import Logo from '../components/Logo.vue';
+import WhoAmI from '../components/WhoAmI.vue';
+import Footer from '../components/Footer.vue';
+
 export default {
-  components: { Logo },
+  components: { Logo, WhoAmI, Footer },
 }
 </script>
