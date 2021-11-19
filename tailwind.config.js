@@ -18,7 +18,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['group-hover']
+    },
   },
   plugins: [],
   purge: [

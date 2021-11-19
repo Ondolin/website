@@ -1,8 +1,20 @@
 <template>
   <div>
-    <div class="grid grid-cols-2 gap-2 group" @click="localSwitch">
+    <div class="grid grid-cols-2 gap-0 group select-none" @click="localSwitch">
       <font-awesome-icon size="2x" :icon="['fas', 'language']" />
-      <div class="mt-1 group-hover:underline">{{ currentLocale.toUpperCase().substring(0,2) }}</div>
+      <div class="-ml-1 border-accent border-0 group-hover:border-b-2">
+        <div 
+          class="inline-block mt-1" 
+          :class="(availableLocales[0] != currentLocale) && 'text-gray-400'">
+            {{ availableLocales[0].toUpperCase().substring(0,2) }}
+        </div>
+        <span> / </span>
+        <div 
+          class="inline-block" 
+          :class="(availableLocales[1] != currentLocale) && 'text-gray-400'">
+            {{ availableLocales[1].toUpperCase().substring(0, 2) }}
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -17,13 +29,8 @@ export default {
   },
   methods: {
     localSwitch () {
-
-      let newLocale = this.availableLocales.find(locale => locale != this.currentLocale);
-
-      console.log(newLocale);
-
       this.$router.push({
-        path: this.$tp(this.$route.path, newLocale, true)
+        path: this.$tp(this.$route.path, this.otherLocale, true)
       })
     }
   },
@@ -34,6 +41,11 @@ export default {
       },
       set: function (newLocale) {
         this.$i18n.locale = newLocale;
+      }
+    },
+    otherLocale: {
+      get: function () {
+        return this.availableLocales.find(locale => locale != this.currentLocale);
       }
     }
   }

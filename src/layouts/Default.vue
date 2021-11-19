@@ -4,7 +4,7 @@
       <nav class="flex justify-between item-center">
         <g-link class="ml-4 mt-1 hover:underline" to="/">{{ $t("nav.home") }}</g-link>
         <g-link class="ml-4 mt-1 hover:underline" to="/about/">{{ $t("nav.impressum") }}</g-link>
-        <LocaleSwitcher class="ml-4" />
+        <LocaleSwitcher class="ml-8" />
       </nav>
     </header>
     <slot/>
