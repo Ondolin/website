@@ -13,6 +13,9 @@
 import Logo from '../components/Logo.vue';
 
 export default {
-  components: { Logo },
+  metaInfo: {
+    title: 'Ondolin'
+  },
+  components: { Logo }
 }
 </script>
