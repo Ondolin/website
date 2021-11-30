@@ -1,7 +1,7 @@
 <template>
     <div class="xl:w-5/6 mx-auto">
         <div class="flex justify-center">
-            <span class="text-3xl">{{ $t('projects.torchly.title') }}</span>
+            <a class="text-3xl" href="https://github.com/torch-ly/torch-ly-frontend" target="_blank">{{ $t('projects.torchly.title') }}</a>
         </div>
 
         <div class="mt-4 text-center">

@@ -41,6 +41,14 @@ module.exports = {
                 "This program is build to add proper supprt for playing DnD localy.",
                 "Due to the imense amount of work required to enhance and maitain this project it is currently put on hold."
             ]
+        },
+        dotfiles: {
+            title: "Dotfiles",
+            description: [
+                "I know. What exectly are those doing here?",
+                "But those files are very imprtant, as they define my personal workspace.",
+                "I use most of these tool on a daily basis, and they are set up in the exact way I need them to support my workflow."
+            ]
         }
     }
 }

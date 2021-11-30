@@ -11,7 +11,9 @@
 
     <gotify-matrix-bot class="mt-6" />
 
-    <torchly class="mt-16 mb-12" />
+    <torchly class="mt-16" />
+
+    <dotfiles class="mt-16 mb-12" />
 
     <Footer />
 
@@ -24,8 +26,9 @@ import WhoAmI from "../components/paragraphs/WhoAmI.vue";
 import WhatDoIDo from "../components/paragraphs/WhatDoIDo.vue";
 import GotifyMatrixBot from "../components/paragraphs/projects/GotifyMatrixBot.vue";
 import Torchly from "../components/paragraphs/projects/Torchly.vue";
+import Dotfiles from "../components/paragraphs/projects/Dotfiles.vue";
 
 export default {
-  components: { Footer, WhoAmI, WhatDoIDo, GotifyMatrixBot, Torchly },
+  components: { Footer, WhoAmI, WhatDoIDo, GotifyMatrixBot, Torchly, Dotfiles },
 };
 </script>

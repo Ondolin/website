@@ -1,7 +1,7 @@
 <template>
     <div class="xl:w-5/6 mx-auto">
         <div class="flex justify-center">
-            <span class="text-3xl">{{ $t('projects.gotifyMatrixBot.title') }}</span>
+            <a class="text-3xl" href="https://github.com/Ondolin/gotify-matrix-bot/" target="_blank">{{ $t('projects.gotifyMatrixBot.title') }}</a>
         </div>
 
         <div class="mt-4 text-center">

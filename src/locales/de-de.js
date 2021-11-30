@@ -39,6 +39,14 @@ module.exports = {
                 "Dieses Prohram ist dafür gebaut auch bei DnD sessions in präsenz genutzt werden zu können.",
                 "Aufgrund des imensen aufwands dieses projectes ist es derzeit auf Eis gesetzt."
             ]
+        },
+        dotfiles: {
+            title: "Dotfiles",
+            description: [
+                "Ich weiß. Was genau machen meine dotfiles hier unter meinen Projecten?",
+                "Aber diese sind tatsächlich ein sehr relevanter teil meiner Arbeitsumgebung.",
+                "Ich nutzte viele dieser Progamme tag täglich, und sie sind genau so eingerichtet, dass sie mit meinem Workflow gut kooperieren."
+            ]
         }
     }
 };
