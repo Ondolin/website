@@ -15,7 +15,7 @@
 
             <div>
 
-                <span class="block text-5xl mt-2">{{ $t('whatDoIDo.title') }}</span>
+                <span class="block text-4xl lg:text-5xl mt-2">{{ $t('whatDoIDo.title') }}</span>
 
                 <hr class="w-32 border-accent my-2 lg:float-right">
 

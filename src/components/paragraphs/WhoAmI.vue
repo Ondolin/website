@@ -5,7 +5,7 @@
 
             <div>
 
-                <span class="block text-5xl mt-2">{{ $t('whoAmI.title') }}</span>
+                <span class="block text-4xl lg:text-5xl mt-2">{{ $t('whoAmI.title') }}</span>
 
                 <hr class="w-32 border-accent my-2">
 
