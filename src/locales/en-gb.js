@@ -34,5 +34,13 @@ module.exports = {
                 "And this bot is my implementation of this alternative. It takes messages from gotify and sends them to a Matrix chat. Matrix is widely spred and there are tons of apps to reseve your nodifications on your mobile deive."
             ]
         },
+        torchly: {
+            title: "Torchly",
+            description: [
+                "Torchly is a tabletop RPG simulator. The software is similar to Roll20 and is completely open source.",
+                "This program is build to add proper supprt for playing DnD localy.",
+                "Due to the imense amount of work required to enhance and maitain this project it is currently put on hold."
+            ]
+        }
     }
 }

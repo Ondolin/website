@@ -9,7 +9,9 @@
       <span class="p-2 border-accent border-b">{{ $t("projects.title") }}</span>
     </div>
 
-    <gotify-matrix-bot class="mt-6 mb-12" />
+    <gotify-matrix-bot class="mt-6" />
+
+    <torchly class="mt-16 mb-12" />
 
     <Footer />
 
@@ -21,8 +23,9 @@ import Footer from "../components/Footer.vue";
 import WhoAmI from "../components/paragraphs/WhoAmI.vue";
 import WhatDoIDo from "../components/paragraphs/WhatDoIDo.vue";
 import GotifyMatrixBot from "../components/paragraphs/projects/GotifyMatrixBot.vue";
+import Torchly from "../components/paragraphs/projects/Torchly.vue";
 
 export default {
-  components: { Footer, WhoAmI, WhatDoIDo, GotifyMatrixBot },
+  components: { Footer, WhoAmI, WhatDoIDo, GotifyMatrixBot, Torchly },
 };
 </script>

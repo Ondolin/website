@@ -35,7 +35,9 @@ module.exports = {
         torchly: {
             title: "Torchly",
             description: [
-                "Torchly ist ein tabletop RPG simulator. Die software ist vom Konzept ähnlich zu Roll20"
+                "Torchly ist ein tabletop RPG simulator. Die software ist vom Konzept ähnlich zu Roll20, ist aber vollständig open source.",
+                "Dieses Prohram ist dafür gebaut auch bei DnD sessions in präsenz genutzt werden zu können.",
+                "Aufgrund des imensen aufwands dieses projectes ist es derzeit auf Eis gesetzt."
             ]
         }
     }
