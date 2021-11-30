@@ -10,7 +10,7 @@
           <font-awesome-icon size="2x" :icon="['fas', 'bars']" class="mr-2"/>
         </div>
 
-        <div :class="menuOpen ? 'animate__fadeInRightBig' : 'animate__fadeOutRightBig'" class="bg-primary-light bg-opacity-90 p-4 pl-8 w-full mt-3 rounded-lg top-10 absolute text-lg select-none animate__animated">
+        <div :class="menuOpen ? true : 'hidden'" class="bg-primary-light bg-opacity-95 p-4 pl-8 w-full mt-3 rounded-lg top-10 absolute text-lg select-none animate__animated animate__fadeInRightBig">
           <g-link class="block" :to="$tp('/')">{{ $t("nav.home") }}</g-link>
           <g-link class="block mt-3" :to="$tp('/about/')">{{ $t("nav.about") }}</g-link>
           <LocaleSwitcher class="w-32 mt-3" />
