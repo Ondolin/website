@@ -3,6 +3,10 @@ module.exports = {
         home: "Home",
         about: "About",
     },
+    pageNotFound: {
+        title: "You shell not Pass!",
+        subtitle: "No, honestly. I don't think you belong here..."
+    },
     whoAmI: {
         title: "Who am I?",
         text: [

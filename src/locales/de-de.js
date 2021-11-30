@@ -3,6 +3,9 @@ module.exports = {
         home: "Hauptseite",
         about: "Über Mich",
     },
+    pageNotFound: {
+        subtitle: "Nein, ehrlich. Ich glaube nicht das du wirklich hier her willst..."
+    },
     whoAmI: {
         title: "Wer bin ich?",
         text: [
@@ -29,5 +32,11 @@ module.exports = {
                 "Und die Alternative ist dieser Bot. Er nimmt Nachrichten von Gotify, und sendet diese in einen Matrix Chat. Für Matrix gibt es eine große außwahl an Clients für alle Mobielen Endgeräte."
             ]
         },
+        torchly: {
+            title: "Torchly",
+            description: [
+                "Torchly ist ein tabletop RPG simulator. Die software ist vom Konzept ähnlich zu Roll20"
+            ]
+        }
     }
 };
