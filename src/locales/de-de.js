@@ -2,6 +2,7 @@ module.exports = {
     nav: {
         home: "Hauptseite",
         about: "Über Mich",
+        contact: "Kontakt"
     },
     pageNotFound: {
         subtitle: "Nein, ehrlich. Ich glaube nicht das du wirklich hier her willst..."
