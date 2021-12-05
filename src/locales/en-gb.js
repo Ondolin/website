@@ -14,6 +14,7 @@ module.exports = {
             "Using this you can make sure you are talking with me, and not someone else.",
             "My GPG key is identified by a fingerprint.",
         ],
+        keyFile: "My key File",
         github: [
             "Most of my development projects can be seen on GitHub.",
             "So if you are interested take a look:"

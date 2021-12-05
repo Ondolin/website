@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="pl-4 pr-4">
 
     <h1 class="text-4xl">{{ $t("contactPage.title") }}</h1>
 
@@ -13,7 +13,7 @@
     <span class="mt-2">{{ $t("contactPage.matrix") }}</span>
     <div class="mt-2">
       <span>{{ $t("contactPage.matrixLink") }}</span>
-      <a href="https://matrix.to/#/@ondolin:matrix.ondolin.de" target="_blank">https://matrix.to/#/@ondolin:matrix.ondolin.de</a>
+      <a href="https://matrix.to/#/@ondolin:matrix.ondolin.de" target="_blank">Matrix Ondolin</a>
     </div>
 
     <h2 class="text-2xl underline mt-5">GPG-Key</h2>
@@ -24,13 +24,17 @@
       <CopyToClipboard :text="fingerprint"></CopyToClipboard>
     </div>
 
+    <a class="mt-2" href="https://keys.openpgp.org/vks/v1/by-fingerprint/4326D52FFDBBE82ABDC350EFED01D044AA9CD79A">{{ $t("contactPage.keyFile") }}</a>
+
     <h2 class="text-2xl underline mt-5">GitHub</h2>
     <span class="block mt-2">{{ $t("contactPage.github[0]") }}</span>
     <span class="mt-2">{{ $t("contactPage.github[1]") }} </span>
 
     <a class="inline-block" href="https://github.com/ondolin" target="_blank">https://github.com/ondolin</a>
 
-    <Footer class="mt-40" />
+    <div class="h-60" />
+
+    <Footer />
 
   </Layout>
 </template>
