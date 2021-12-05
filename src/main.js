@@ -26,11 +26,4 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   appOptions.i18n.setLocaleMessage('de-de', require('~/locales/de-de.js'));
   appOptions.i18n.setLocaleMessage('en-gb', require('~/locales/en-gb.js'));
 
-  head.script.push({
-    src: "https://stats.ondolin.de/js/plausible.js",
-    "async": true,
-    "defer": true,
-    "data-domain": "stats.ondolin.de"
-  });
-
 }

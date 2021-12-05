@@ -28,6 +28,14 @@ module.exports = {
         enablePathRewrite: true, // rewrite path with locale prefix, default: true
         rewriteDefaultLanguage: false, // rewrite default locale, default: true
       }
+    },
+    {
+      use: 'gridsome-plugin-plausible-analytics',
+      options: {
+        dataDomain: 'ondolin.de',
+        outboundLinkTracking: true,
+        customDomain: 'stats.ondolin.de'
+      }
     }
   ]
 }
