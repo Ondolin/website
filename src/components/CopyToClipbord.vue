@@ -29,7 +29,8 @@ export default {
     };
   },
   created() {
-    this.hasClipboard = !!navigator.clipboard
+    if (process.isClient)
+      this.hasClipboard = !!navigator.clipboard;
   },
   methods: {
     copyToClipboard() {
