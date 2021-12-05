@@ -33,7 +33,7 @@ module.exports = {
       use: 'gridsome-plugin-plausible-analytics',
       options: {
         dataDomain: 'stats.ondolin.de',
-        outboundLinkTracking: false
+        outboundLinkTracking: true
       }
     }
   ]
