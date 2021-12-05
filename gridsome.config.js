@@ -10,7 +10,7 @@ module.exports = {
   plugins: [
     {
       use: "gridsome-plugin-tailwindcss",
-      
+
     },
     {
       use: "gridsome-plugin-i18n",
@@ -27,6 +27,13 @@ module.exports = {
         defaultLocale: 'en-gb', // default language
         enablePathRewrite: true, // rewrite path with locale prefix, default: true
         rewriteDefaultLanguage: false, // rewrite default locale, default: true
+      }
+    },
+    {
+      use: 'gridsome-plugin-plausible-analytics',
+      options: {
+        dataDomain: 'stats.ondolin.de',
+        outboundLinkTracking: false
       }
     }
   ]

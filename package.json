@@ -12,6 +12,7 @@
     "animate.css": "^4.1.1",
     "gridsome": "^0.7.0",
     "gridsome-plugin-i18n": "^1.6.0",
+    "gridsome-plugin-plausible-analytics": "^1.0.0",
     "typeface-dancing-script": "^1.1.13"
   },
   "devDependencies": {
