@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import LogoComponent from '~/components/Logo.vue'
+import VueMarkdown from 'vue-markdown'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
@@ -20,6 +21,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
   Vue.component('Logo', LogoComponent);
+  Vue.component('vue-markdown', VueMarkdown);
 
   Vue.component('font-awesome-icon', FontAwesomeIcon)
 

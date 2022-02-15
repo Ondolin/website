@@ -18,10 +18,9 @@
 
       </div>
 
-      {{ blog.content }}
+      <vue-markdown class="prose mt-4">{{ blog.content.replace("/uploads/", "https://strapi.ondolin.de/uploads/") }}</vue-markdown>
 
     </div>
-
   </BlogLayout>
 </template>
 <script>

@@ -29,7 +29,9 @@ module.exports = {
       display: ['group-hover']
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
   purge: [
     './src/**/*.html',
     './src/**/*.vue',
