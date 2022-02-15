@@ -11,7 +11,7 @@
 
     <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div v-for="post in posts" class="m-4 bg-gray-50 w-64 h-64 text-gray-900 rounded-md shadow-xl">
-        <img class="h-1/2 w-full object-cover rounded-t-md" :src="calculateCoverURL(post)">
+        <g-image class="h-1/2 w-full object-cover rounded-t-md" :src="calculateCoverURL(post)" />
 
         <div class="h-1/2 flex flex-col justify-between">
           <div class="p-3">
@@ -28,7 +28,7 @@
               </div>
 
               <div>
-                <span class="text-xs">Read</span>
+                <g-link class="text-xs" :to="'/blog/' + post.id">Read</g-link>
                 <font-awesome-icon class="ml-1" size="xs" icon="arrow-right" />
               </div>
 
@@ -68,7 +68,7 @@ export default {
     },
     dayjs
   },
-  created() {
+  mounted() {
     axios.get('https://strapi.ondolin.de/blogs').then(response => {
       this.posts = response.data;
       this.loading = false;
