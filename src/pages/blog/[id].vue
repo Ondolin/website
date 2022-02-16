@@ -14,7 +14,7 @@
           <span class="block">{{dayjs(blog.created_at).locale($i18n.locale.toString()).format('MMM DD, YYYY')}}</span>
         </div>
 
-        <font-awesome-icon @click="share" icon="share"></font-awesome-icon>
+        <font-awesome-icon class="hover:text-accent" @click="share" icon="share"></font-awesome-icon>
 
       </div>
 
