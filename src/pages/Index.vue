@@ -14,7 +14,10 @@ import Logo from '../components/Logo.vue';
 
 export default {
   metaInfo: {
-    title: 'Ondolin'
+    title: 'Ondolin',
+    meta: [
+      { name: 'description', content: 'Hi. My name is Marie. I am a computer science student, and this is my personal website.' }
+    ]
   },
   components: { Logo }
 }
