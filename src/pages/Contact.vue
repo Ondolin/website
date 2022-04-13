@@ -47,6 +47,12 @@ export default {
     return {
       fingerprint: "4326 D52F FDBB E82A BDC3  50EF ED01 D044 AA9C D79A",
     }
+  },
+  metaInfo: {
+    title: 'Ondolin | Contact',
+    meta: [
+      { name: 'description', content: 'Hi. My name is Marie. This is how you can contact me.' }
+    ]
   }
 }
 </script>

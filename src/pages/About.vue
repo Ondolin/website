@@ -30,5 +30,11 @@ import Dotfiles from "../components/paragraphs/projects/Dotfiles.vue";
 
 export default {
   components: { Footer, WhoAmI, WhatDoIDo, GotifyMatrixBot, Torchly, Dotfiles },
+  metaInfo: {
+    title: 'Ondolin | Who am I?',
+    meta: [
+      { name: 'description', content: 'Hi. My name is Marie. I am a computer science student, and this is my personal website.' }
+    ]
+  }
 };
 </script>
