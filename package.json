@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "typeface-dancing-script": "^1.1.13",
     "vitawind": "^2.2.4",
     "vue": "^3.2.37"
   },
