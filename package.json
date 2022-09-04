@@ -11,10 +11,12 @@
   "dependencies": {
     "typeface-dancing-script": "^1.1.13",
     "vitawind": "^2.2.4",
-    "vue": "^3.2.37"
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.2.2"
   },
   "devDependencies": {
     "@iconify/vue": "^3.2.1",
+    "@intlify/vite-plugin-vue-i18n": "^6.0.1",
     "@vitejs/plugin-vue": "^3.0.3",
     "unplugin-icons": "^0.14.9",
     "vite": "^3.0.7"
