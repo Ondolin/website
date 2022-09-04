@@ -1,5 +1,6 @@
 <template>
-    {{ t("content", { age: calculateAge() }) }}
+    <span class="block w-full text-center text-3xl whoAmI">{{ t("title") }}</span>
+    <span class="block mt-3 w-full text-center text-lg">{{ t("content", { age: calculateAge() }) }}</span>
 </template>
 <script setup>
 

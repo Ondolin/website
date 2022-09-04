@@ -13,6 +13,7 @@ const i18n = createI18n({
 
 import './index.css'
 import 'typeface-dancing-script'
+import 'typeface-montserrat'
 
 createApp(App)
     .use(i18n)

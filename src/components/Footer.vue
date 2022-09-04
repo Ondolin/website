@@ -1,5 +1,5 @@
 <template>
-    <div class="h-64 w-full bg-primary-dark flex items-center justify-center">
+    <div class="h-64 w-full bg-primary-dark flex items-center justify-center text-white">
         <span>Made by Ondolin</span>
     </div>
 </template>

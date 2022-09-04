@@ -20,10 +20,12 @@ module.exports = {
             },
             fontFamily: {
               logo: ['Dancing Script', 'cursive'],
+              monserat: ['Montserrat', 'sans-serive'],
             },
             spacing: {
               'px': '1px'
             }
           },
     },
+    purge: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.vue"],
 }
