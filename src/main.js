@@ -1,38 +1,20 @@
-// This is the main.js file. Import global CSS and scripts here.
-// The Client API can be used here. Learn more: gridsome.org/docs/client-api
+import { createApp } from 'vue'
+import App from './App.vue'
+import { Icon } from '@iconify/vue';
 
-import DefaultLayout from '~/layouts/Default.vue'
-import LogoComponent from '~/components/Logo.vue'
-import VueMarkdown from 'vue-markdown'
+import { createI18n, useI18n } from 'vue-i18n'
+// import messages from '@intlify/vite-plugin-vue-i18n/messages'
 
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faLanguage, faBars, faClipboard, faCalendarDay, faArrowRight, faShare} from '@fortawesome/free-solid-svg-icons'
-import '@fortawesome/fontawesome-svg-core/styles.css'
+const i18n = createI18n({
+    // TODO check for lang parameter
+    locale: window.navigator.language.includes("de") ? "de" : "en"
+});
 
-require('typeface-dancing-script')
 
-import 'animate.css'
+import './index.css'
+import 'typeface-dancing-script'
 
-config.autoAddCss = false;
-library.add(faLanguage, faBars, faClipboard, faCalendarDay, faArrowRight, faShare);
-
-export default function (Vue, { router, head, isClient, appOptions }) {
-  // Set default layout as a global component
-  Vue.component('Layout', DefaultLayout);
-  Vue.component('Logo', LogoComponent);
-  Vue.component('vue-markdown', VueMarkdown);
-
-  Vue.component('font-awesome-icon', FontAwesomeIcon)
-
-  appOptions.i18n.setLocaleMessage('de-de', require('~/locales/de-de.js'));
-  appOptions.i18n.setLocaleMessage('en-gb', require('~/locales/en-gb.js'));
-
-  head.script.push({
-    src: "https://stats.ondolin.de/js/plausible.outbound-links.js",
-    async: true,
-    defer: true,
-    "data-domain": "ondolin.de"
-  });
-
-}
+createApp(App)
+    .use(i18n)
+    .component("Icon", Icon)
+    .mount('#app');
