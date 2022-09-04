@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center select-none text-gray-900">
+    <div class="flex items-center select-none text-white">
         <Icon icon="fontisto:language" width="30" />
         <button :class="$i18n.locale == 'de' ? 'underline' : ''" @click="$i18n.locale = 'de'">DE</button>
         <span>/</span>
