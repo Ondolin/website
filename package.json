@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "smoothscroll-polyfill": "^0.4.4",
     "typeface-dancing-script": "^1.1.13",
     "typeface-montserrat": "^1.1.13",

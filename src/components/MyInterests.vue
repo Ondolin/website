@@ -14,19 +14,19 @@
         <div class="onTop py-5 md:px-20 lg:px-16">
 
 
-            <div class="w-full flex justify-center">
+            <div data-aos="fade-right" class="w-full flex justify-center">
                 <InterestsCard :left="false" title="Test" class="md:w-1/2 md:max-w-xl mx-4 md:mr-20 md:ml-0 md:-translate-x-1/2">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi similique blanditiis ipsam quis soluta odit quasi eum dolores enim saepe hic rem consectetur in molestias nihil consequatur cum, architecto reiciendis!
                 </InterestsCard>
             </div>
 
-            <div class="w-full flex justify-center mt-12">
+            <div data-aos="fade-left" class="w-full flex justify-center mt-12">
                 <InterestsCard :left="true" title="Test" class="md:w-1/2 md:max-w-xl mx-4 md:ml-20 md:mr-0 md:translate-x-1/2">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi similique blanditiis ipsam quis soluta odit quasi eum dolores enim saepe hic rem consectetur in molestias nihil consequatur cum, architecto reiciendis!
                 </InterestsCard>
             </div>
 
-            <div class="w-full flex justify-center mt-12">
+            <div data-aos="fade-right" class="w-full flex justify-center mt-12">
                 <InterestsCard :left="false" title="Test" class="md:w-1/2 md:max-w-xl mx-4 md:mr-20 md:ml-0 md:-translate-x-1/2">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi similique blanditiis ipsam quis soluta odit quasi eum dolores enim saepe hic rem consectetur in molestias nihil consequatur cum, architecto reiciendis!
                 </InterestsCard>

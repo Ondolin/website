@@ -15,6 +15,11 @@ import './index.css'
 import 'typeface-dancing-script'
 import 'typeface-montserrat'
 
+import 'aos/dist/aos.css'
+import Aos from 'aos';
+
+Aos.init();
+
 createApp(App)
     .use(i18n)
     .component("Icon", Icon)
