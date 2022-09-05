@@ -9,7 +9,7 @@
     </div>
 
     <div class="flex flex-col w-full lg:flex-row justify-center items-center lg:items-start">
-        <div class="mx-4 mt-5 lg:mt-0" v-for="(post, i) in instaCache.data.data.slice(0, 3)">
+        <div class="mx-4 mt-5 lg:mt-0" v-for="(post, i) in insta.slice(0, 3)">
                 <img class="object-cover w-72 h-72 rounded" :src="post.media_url"/>
             <div class="w-72 text-center px-3 mt-3 text-sm text-gray-600">{{post.caption}}</div>
         </div>
@@ -24,17 +24,7 @@ const { _, t } = useI18n({
     inheritLocale: true
 });
 
-let cacheTime = localStorage.getItem('insta_cache_time');
-let instaCache = JSON.parse(localStorage.getItem('insta_cache'));
-
-if (!cacheTime || !instaCache || (Date.now() - cacheTime) > 1000 * 60 * 60) {
-    instaCache = await axios(`https://graph.instagram.com/me/media?fields=id,caption,media_url&access_token=${import.meta.env.VITE_INSTA_API_KEY}`);
-
-    localStorage.setItem('insta_cache_time', Date.now());
-    localStorage.setItem('insta_cache', JSON.stringify(instaCache));
-
-    console.log(11, instaCache);
-}
+const insta = await (await axios(`/api/insta`)).data;
 </script>
 
 <i18n>
