@@ -9,9 +9,13 @@
     </div>
 
     <div class="flex flex-col w-full lg:flex-row justify-center items-center lg:items-start">
-        <div class="mx-4 mt-5 lg:mt-0" v-for="(post, i) in insta.slice(0, 3)">
+        <div class="mx-4 mt-5 lg:mt-0" v-if="insta" v-for="(post, i) in insta.slice(0, 3)">
                 <img class="object-cover w-72 h-72 rounded" :src="post.media_url"/>
             <div class="w-72 text-center px-3 mt-3 text-sm text-gray-600">{{post.caption}}</div>
+        </div>
+        <div v-else>
+            <span class="block">If you see this, something went wrong...</span>
+            <span class="block text-center">Sorry for that...</span>
         </div>
     </div>
 </template>
@@ -24,7 +28,9 @@ const { _, t } = useI18n({
     inheritLocale: true
 });
 
-const insta = await (await axios(`/api/insta`)).data;
+try {
+    const insta = await (await axios(`/api/insta`)).data;
+} catch {}
 </script>
 
 <i18n>
