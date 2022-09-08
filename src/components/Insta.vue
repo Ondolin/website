@@ -28,8 +28,10 @@ const { _, t } = useI18n({
     inheritLocale: true
 });
 
+let insta;
+
 try {
-    const insta = await (await axios(`/api/insta`)).data;
+    insta = await (await axios(`/api/insta`)).data;
 } catch {}
 </script>
 
