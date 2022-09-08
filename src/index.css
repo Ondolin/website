@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-    @apply bg-primary font-monserat;
+    @apply bg-primary font-monserat overflow-x-hidden;
 }
