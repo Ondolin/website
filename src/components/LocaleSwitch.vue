@@ -1,9 +1,9 @@
 <template>
     <div class="flex items-center select-none text-white">
         <Icon icon="fontisto:language" width="30" />
-        <button :class="$i18n.locale == 'de' ? 'underline' : ''" @click="$i18n.locale = 'de'">DE</button>
+        <button :class="$i18n.locale == 'de' ? 'underline' : ''" @click="$router.push('/de')">DE</button>
         <span>/</span>
-        <button :class="$i18n.locale == 'en' ? 'underline' : ''" @click="$i18n.locale = 'en'">EN</button>
+        <button :class="$i18n.locale == 'en' ? 'underline' : ''" @click="$router.push('/')">EN</button>
     </div>
 </template>
 
