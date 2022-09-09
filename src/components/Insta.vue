@@ -2,7 +2,7 @@
 
     <div class="flex justify-center items-center w-full text-center text-3xl mt-10 mb-5">
         {{ t("my") }}
-        <div class="hover:text-accent hover:underline cursor-pointer">
+        <div class="hover:text-accent hover:underline cursor-pointer underline-offset-4">
             <a href="https://www.instagram.com/__ondolin__/" target="_blank" class="mx-2">Instagram</a> 
             <Icon class="inline" icon="akar-icons:instagram-fill" />
         </div>
