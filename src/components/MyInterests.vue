@@ -17,19 +17,24 @@
             <div data-aos="fade-right" class="w-full flex justify-center">
                 <InterestsCard :left="false" :title="t('programming_title')" class="md:w-1/2 md:max-w-xl mx-4 md:mr-20 md:ml-0 md:-translate-x-1/2">
                     {{ t('programming_content_1') }}
-                    <div class="inline text-blue-700 hover:text-accent hover:border-b border-accent">
+                    <div class="inline text-blue-700 hover:text-accent hover:border-b border-accent whitespace-nowrap">
                         <Icon class="inline -mt-1" icon="akar-icons:link-chain" height="16" />
                         <a  href="https://www.rust-lang.org/learn/get-started" target="_blank">Rust</a>
                     </div>.
                     {{ t('programming_content_2') }}
-                    <div class="inline text-blue-700 hover:text-accent hover:border-b border-accent">
+                    <div class="inline text-blue-700 hover:text-accent hover:border-b border-accent whitespace-nowrap">
                         <Icon class="inline -mt-1" icon="akar-icons:link-chain" height="16" />
                         <a  href="https://github.com/ondolin" target="_blank">Github</a>
                     </div>.
                 </InterestsCard>
             </div>
 
-            <div data-aos="fade-left" class="w-full flex justify-center mt-12">
+            <div data-aos="fade-left" class="hidden w-full md:flex justify-center mt-12">
+                <InterestsCard :left="true" :title="t('backing_title')" class="md:w-1/2 md:max-w-xl mx-4 md:ml-20 md:mr-0 md:translate-x-1/2">
+                    {{ t('backing_content') }}
+                </InterestsCard>
+            </div>
+            <div data-aos="fade-right" class="md:hidden w-full flex justify-center mt-12">
                 <InterestsCard :left="true" :title="t('backing_title')" class="md:w-1/2 md:max-w-xl mx-4 md:ml-20 md:mr-0 md:translate-x-1/2">
                     {{ t('backing_content') }}
                 </InterestsCard>
