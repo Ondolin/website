@@ -5,9 +5,10 @@
 
         <div class="col-span-2 mt-3 flex justify-center">
             <div class="text-lg text-left max-w-xl xl:max-w-2xl h-full mt-5">
-                <span class="block leading-relaxed">{{ t("content", {age: calculateAge()}) }}</span>
-                <span class="block mt-4 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus amet animi cumque deleniti dolor eius eum ipsum labore magni odit quaerat qui ratione reprehenderit, similique tempore vel velit vero.</span>
-                <span class="block mt-4 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem deleniti dicta dolor ea expedita fugiat fugit hic iste nam natus necessitatibus nostrum officia omnis perspiciatis porro quibusdam repudiandae, voluptas.</span>
+                <span class="block leading-relaxed">{{ t("content_1", {age: calculateAge()}) }}</span>
+                <span class="block mt-4 leading-relaxed">{{ t("content_2") }}</span>
+                <span class="block mt-4 leading-relaxed">{{ t("content_3") }}</span>
+                <span class="block mt-4 leading-relaxed">{{ t("content_4") }}</span>
             </div>
         </div>
 
@@ -54,12 +55,18 @@ function calculateAge() {
 {
     "en": {
         "title": "Who am I?",
-        "content": "Hi, my name is Marie. I am {age} years old. Currently I am studying Computer science at the RWTH Aachen University.",
+        "content_1": "Hi, my name is Marie. I am {age} years old. Currently I am studying Computer science at the RWTH Aachen University.",
+        "content_2": "In 2019 I have started my study directly after graduating from High School. Currently I am working on my bachelor's degree.",
+        "content_3": "My main interest within my studies is directed towards the theoretical computer science. Accordingly, I focus my studies as much as possible on this area. Furthermore I am planning to do my bachelor thesis on a theoretical topic.",
+        "content_4": "Since the beginning of 2022 I am working as a tutor at the University.",
         "contact": "Feel free to contact me if you have any questions."
     },
     "de": {
         "title": "Wer bin ich?",
-        "content": "Hi, ich bin Marie. Ich bin derzeitig {age} Jahre alt. Derzeitig studiere ich Informatik an der RWTH Aachen University.",
+        "content_1": "Hi, ich bin Marie. Ich bin {age} Jahre alt und studiere Informatik an der RWTH Aachen University.",
+        "content_2": "Im Jahr 2019 habe ich mein Studium direkt nach dem Abitur begonnen, und arbeite derzeitig auf meinen Bachelor Abschluss hin.",
+        "content_3": "Hauptsächlich interessiere ich mich in meinem Studium für die Theoretische Informatik. Entsprechend fokussiere ich meine studien so weit wie möglich auf diesen Bereich, und plane auch meine Bachelor Arbeit in einem theoretischen Thema.",
+        "content_4": "Seit anfang 2022 arbeite ich nebenbei als Tutorin an der Uni.",
         "contact": "Solltest du irgendwelche fragen haben, kontaktiere mich gerne."
     }
 }
