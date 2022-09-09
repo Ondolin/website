@@ -2,6 +2,7 @@ import {shallowRef} from "vue";
 import Index from "./pages/Index.vue";
 import Impressum from "./pages/Impressum.vue";
 import Datenschutz from "./pages/Datenschutz.vue";
+import NotFound from "./pages/404.vue";
 
 
 export function initRouter(app) {
@@ -32,6 +33,8 @@ function router(app) {
     } else if (window.location.pathname === '/de') {
         app.config.globalProperties.$i18n.locale = 'de';
         return Index;
+    } else {
+        return NotFound;
     }
 }
 
