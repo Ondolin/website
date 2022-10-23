@@ -77,7 +77,7 @@ const { _, t } = useI18n({
             "programming_content_2": "Most projects I work on are made Open Source and are available at my ",
 
             "backing_title": "Backing",
-            "you_shall_not_pass": "You shall ot pass!!!",
+            "you_shall_not_pass": "You shall not pass!!!",
             "backing_content": "Backing is one of my favorite activities. It does not matter if it's Cake, Cookies or Muffins. I especially love backing for family and friends. My goal is to one day be able to bake decorative cakes. It will take some time to be able to do so, but I will not surrender.",
 
             "rpg_title": "Dungeons & Dragons",
@@ -87,15 +87,15 @@ const { _, t } = useI18n({
             "title": "Was sind meine interessen?"
         ,
             "programming_title": "Programmieren",
-            "programming_content_1": "Eins meiner Hautinteressen ist programmieren. In meiner Freizeit schreibe ich gerne kleine Anwendungen um mein leben zu vereinfachen. Meine Lieblings-Programmiersprache ist ",
-            "programming_content_2": "Die Meisten meiner Projekte sind Open Source und einsehbar auf meinem ",
+            "programming_content_1": "Eins meiner Hauptinteressen ist das Programmieren. In meiner Freizeit schreibe ich gerne kleine Anwendungen, um mein Leben zu vereinfachen. Meine Lieblings-Programmiersprache ist ",
+            "programming_content_2": "Die meisten meiner Projekte sind Open Source und einsehbar auf meinem ",
 
             "backing_title": "Backen",
-            "backing_content": "Backen ist eine meiner Lieblingsaktivitäten. Egal ob Kuchen, Kekse oder Muffins sind. Besonders für Familie und Freunde liebe ich es etwas zu backen. Mein Ziel ist es eines Tages dekorative Torten backen zu können. Auch wenn das noch etwas dauern wird, werde ich nicht aufgeben.",
+            "backing_content": "Backen ist eine meiner Lieblingsaktivitäten. Egal ob es Kuchen, Kekse oder Muffins sind. Besonders für Familie und Freunde liebe ich es, etwas zu backen. Mein Ziel ist es, eines Tages dekorative Torten backen zu können. Auch wenn das noch etwas dauern wird, werde ich nicht aufgeben.",
 
             "rpg_title": "Dungeons & Dragons",
-            "you_shall_not_pass": "You shall ot pass!!!",
-            "rpg_content": "Jaaa... Das sollte reichen um zu beweisen, dass ich ein Nerd bin. Also spiele ich natürlich auch DnD in meiner Freizeit. Ich habe sowohl die Rolle des Spielers als auch die des DMs übernommen, und liebe beides. Meine Lieblings Fantasy Universen sind derzeit LOTR und Eragon."
+            "you_shall_not_pass": "You shall not pass!!!",
+            "rpg_content": "Jaaa... Das sollte reichen, um zu beweisen, dass ich ein Nerd bin. Also spiele ich natürlich auch DnD in meiner Freizeit. Ich habe sowohl die Rolle des Spielers als auch die des DMs übernommen und liebe Beides. Meine Lieblings-Fantasy Universen sind derzeit LOTR und Eragon."
         }
     }
     </i18n>

@@ -64,9 +64,9 @@ function calculateAge() {
     "de": {
         "title": "Wer bin ich?",
         "content_1": "Hi, ich bin Marie. Ich bin {age} Jahre alt und studiere Informatik an der RWTH Aachen University.",
-        "content_2": "Im Jahr 2019 habe ich mein Studium direkt nach dem Abitur begonnen, und arbeite derzeitig auf meinen Bachelor Abschluss hin.",
-        "content_3": "Hauptsächlich interessiere ich mich in meinem Studium für die Theoretische Informatik. Entsprechend fokussiere ich meine studien so weit wie möglich auf diesen Bereich, und plane auch meine Bachelor Arbeit in einem theoretischen Thema.",
-        "content_4": "Seit anfang 2022 arbeite ich nebenbei als Tutorin an der Uni.",
+        "content_2": "Im Jahr 2019 habe ich mein Studium direkt nach dem Abitur begonnen und arbeite derzeitig auf meinen Bachelor Abschluss hin.",
+        "content_3": "Hauptsächlich interessiere ich mich in meinem Studium für die Theoretische Informatik. Entsprechend fokussiere ich meine Studien so weit wie möglich auf diesen Bereich und plane auch meine Bachelor Arbeit in einem theoretischen Thema.",
+        "content_4": "Seit Anfang 2022 arbeite ich nebenbei als Tutorin an der Uni.",
         "contact": "Solltest du irgendwelche fragen haben, kontaktiere mich gerne."
     }
 }
