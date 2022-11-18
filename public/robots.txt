@@ -1,4 +1,5 @@
 User-Agent: *
 Disallow: /datenschutz
 Disallow: /impressum
+Disallow: /api/*
 Sitemap: https://marie-kaiser.eu/sitemap.xml

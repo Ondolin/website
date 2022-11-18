@@ -3,7 +3,7 @@
         <div class="flex flex-col justify-center items-center h-full">
             <!--img class="h-3/4" src="/Logo.svg"-->
             <Logo class="h-3/4 w-full" />
-            <h1 class="-mt-10 lg:mt-0 w-full text-center text-7xl md:text-9xl font-logo select-none">Ondolin</h1>
+            <h2 class="-mt-10 lg:mt-0 w-full text-center text-7xl md:text-9xl font-logo select-none">Ondolin</h2>
             
             <div class="flex-grow" />
 
