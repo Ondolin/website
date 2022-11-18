@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: /datenschutz
 Disallow: /impressum
-Sitemap: https://ondolin.de/sitemap.txt
+Sitemap: https://marie-kaiser.eu/sitemap.xml
