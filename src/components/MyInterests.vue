@@ -1,6 +1,6 @@
 <template>
 
-    <span class="block w-full text-center text-3xl mt-10 mb-5">{{ t("title") }}</span>
+    <h2 class="block w-full text-center text-3xl mt-10 mb-5">{{ t("title") }}</h2>
 
     <div class="grid w-full">
         <div class="onTop mx-auto h-auto hidden md:block">
@@ -76,7 +76,7 @@ const { _, t } = useI18n({
             "programming_content_1": "One of my main interests is programming. In my free time I write small applications to simplify tasks in my life. My favorite programming language is ",
             "programming_content_2": "Most projects I work on are made Open Source and are available at my ",
 
-            "backing_title": "Backing",
+            "backing_title": "Baking",
             "you_shall_not_pass": "You shall not pass!!!",
             "backing_content": "Backing is one of my favorite activities. It does not matter if it's Cake, Cookies or Muffins. I especially love backing for family and friends. My goal is to one day be able to bake decorative cakes. It will take some time to be able to do so, but I will not surrender.",
 

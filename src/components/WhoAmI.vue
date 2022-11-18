@@ -1,5 +1,5 @@
 <template>
-    <span class="block w-full text-center text-3xl whoAmI pt-6">{{ t("title") }}</span>
+    <h2 class="block w-full text-center text-3xl whoAmI pt-6">{{ t("title") }}</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 mt-3 px-10 py-6 justify-center">
 
@@ -13,8 +13,8 @@
         </div>
 
         <div class="xl:col-span-2 flex flex-col items-center w-full px-5 mt-10 md:mt-0">
-            <img class="rounded-full w-72 aspect-square shadow-lg" src="/ProfilePicture.jpeg"/>
-            <span class="text-2xl font-bold mt-4">Marie Kaiser</span>
+            <img alt="Ondolin's Profile picture" class="rounded-full w-72 aspect-square shadow-lg" src="/ProfilePicture.jpeg"/>
+            <h1 class="text-2xl font-bold mt-4">Marie Kaiser</h1>
             <span class="mt-4 w-2/3 text-center">{{ t("contact") }}</span>
             <div class="flex flex-col items-center mt-2 md:text-sm lg:text-base">
                 <a class="text-blue-500 hover:text-blue-400" href="https://t.me/ondolin" target="_blank">
